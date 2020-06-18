@@ -1,0 +1,39 @@
+.portfolio {
+  &__div {
+    width: 90%;
+    // height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    // margin-top: 80px;
+    // z-index: 1000;
+    // min-height: 60px;
+    max-width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(151, 150, 150);
+    border-radius: 5px;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-row-gap: 3ch;
+    grid-template: repeat(5, 300px) / repeat(1, 95vw);
+    grid-auto-flow: row;
+  }
+
+  &__sectiongrid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  &__link--decoration {
+    text-decoration: none;
+  }
+}
