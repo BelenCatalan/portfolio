@@ -22,7 +22,8 @@ const AnimatedSwitch = withRouter(({ location }) => (
 
 function App() {
   return (
-    <div className="">
+    // <div className="">
+    <>
       <BrowserRouter>
         <header className="">
           <Menu />
@@ -34,7 +35,8 @@ function App() {
         </main>
       </BrowserRouter>
       <Footer />
-    </div>
+    </>
+    /* </div> */
   );
 }
 

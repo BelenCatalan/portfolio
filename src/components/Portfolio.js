@@ -6,7 +6,7 @@ import Project from './Project';
 
 function Portfolio() {
   return (
-    <div className=" portfolio__sectiongrid">
+    <div className=" portfolio__sectiongrid ">
       {/* <h4 className="about__h4">Belen Catalán</h4> */}
       <ul className="portfolio__wrapper project__ul">
         <Project text="Buscador de Series" alt="micabeza" image={series} linkto="Ir al proyecto" description="Buscador de series, elige tus series favoritas" />

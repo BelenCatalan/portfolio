@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import '../stylesheets/App.scss';
 import { CSSTransition } from 'react-transition-group';
 
 function Project(props) {
   const [inHover, setHover] = useState(false);
   // const [inProp, setInProp] = useState(false);
+  let changeBack = useRef(false);
 
   const handleLink = () => {
     console.log('me han clicado');
   };
 
   return (
-    <li onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="project__container">
-      <CSSTransition in={inHover} timeout={6000} classNames="my-node">
+    <li ref={changeBack} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="project__container">
+      <CSSTransition ref={changeBack} in={inHover} timeout={6000} classNames="my-node">
         <div className="project__dark">
           {props.description}
           <button className="project__button--dark" onClick={handleLink}>
