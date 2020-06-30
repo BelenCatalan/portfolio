@@ -71,6 +71,10 @@
   max-width: 900px;
   display: flex;
   justify-content: center;
+
+  @media all and (min-width: 1700px) {
+    max-width: 1200px;
+  }
 }
 
 /* .header__list {
