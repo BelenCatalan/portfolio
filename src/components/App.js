@@ -4,6 +4,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 import '../stylesheets/App.scss';
 import Portfolio from './Portfolio';
+import Contact from './Contacto';
 import { Route, Switch, withRouter, BrowserRouter } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 // import '../stylesheets/styles.css';
@@ -14,6 +15,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
       <Switch location={location}>
         <Route path="/" component={About} exact />
         <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
         {/* <Route path="/second" component={Second} /> */}
       </Switch>
     </CSSTransition>

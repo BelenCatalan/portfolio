@@ -13,7 +13,9 @@ function Menu() {
         <li className="header__li">
           <Link to="/Portfolio">Portfolio</Link>
         </li>
-        <li className="header__li"> Contacto</li>
+        <li className="header__li">
+          <Link to="/Contact">Contacto</Link>
+        </li>
       </ul>
     </div>
   );
