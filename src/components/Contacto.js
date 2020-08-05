@@ -2,14 +2,31 @@ import React from 'react';
 // import aboutme from '../images/iconsabout.jpg';
 import '../stylesheets/App.scss';
 
-function contact() {
+function contact(props) {
+  console.log(props);
+  const handleInputText = (ev) => {
+    props.handleContactText({
+      value: ev.target.value,
+      name: ev.target.name,
+    });
+  };
+
+  const handlerSubmit = (e) => e.preventDefault();
+
   return (
     <div className="about__div">
-      <h4 className="about__h4">Belen Catalán</h4>
-      <p className="about__p">Hola, voy a contarte algunas cosas sobre mi.</p>
-      <p className="about__p"> Sobre mi personalidad, me considero una persona muy curiosa, que le gusta mucho aprender cosas nuevas, sobre todo si con esos conocimientos puedo crear cosas por mi misma. Soy tenaz y comprometida, de fácil adaptabilidad y empatía, los nuevos retos me dan la vida. </p>
+      <form onSubmit={handlerSubmit} action="" method="GET" id="info-user" className="">
+        <label htmlFor="">Nombre Apellido</label>
+        <input className="" type="" name="name" id="" placeholder="Belén Catalán" onChange={handleInputText} href="" value="" required />
 
-      {/* <img className="about__img" src={aboutme} alt="about me"></img> */}
+        <label htmlFor="">Email</label>
+        <input className="" type="" name="email" id="" placeholder="email@gmail.com" onChange={handleInputText} href="" value="" required />
+
+        <label htmlFor="">
+          Mensaje
+          <textarea className="" name="message" onChange={handleInputText}></textarea>
+        </label>
+      </form>
     </div>
   );
 }

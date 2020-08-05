@@ -15,13 +15,18 @@ const AnimatedSwitch = withRouter(({ location }) => (
       <Switch location={location}>
         <Route path="/" component={About} exact />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        {/* <Route path="/second" component={Second} /> */}
+        <Route path="/contact" /*component={Contact} */>
+          <Contact handleContactText={handleContactText} />
+        </Route>
+        {/* <Route path="/second" component={Second} />  */}
       </Switch>
     </CSSTransition>
   </TransitionGroup>
 ));
 
+const handleContactText = (data) => {
+  console.log(data);
+};
 function App() {
   return (
     // <div className="">
@@ -32,7 +37,7 @@ function App() {
         </header>
         <main className="">
           <div className=" main__background App">
-            <AnimatedSwitch />
+            <AnimatedSwitch handleContactText={handleContactText} />
           </div>
         </main>
       </BrowserRouter>

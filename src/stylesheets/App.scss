@@ -72,8 +72,12 @@
   display: flex;
   justify-content: center;
 
+  @media all and (min-width: 768px) {
+    margin-right: 5px;
+    max-width: 650px;
+  }
   @media all and (min-width: 1700px) {
-    max-width: 1200px;
+    max-width: 900px;
   }
 }
 
