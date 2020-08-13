@@ -21,7 +21,9 @@ function Project(props) {
           </button>
         </div>
       </CSSTransition>
-      <img className="project__img" src={props.image} alt={props.alt}></img>
+      <div className="project__div">
+        <img className="project__img" src={props.image} alt={props.alt}></img>
+      </div>
       <hr className="project__hr"></hr>
       <small className="project__text--color">{props.linkto}</small>
       <p className="project__text--color">{props.text}</p>

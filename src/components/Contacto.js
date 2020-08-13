@@ -9,17 +9,6 @@ function Contact(props) {
   const [formImput, setFormImput] = useState({ contactName: '', contactEmail: '', contactMessage: '' });
   console.log(formImput);
 
-  // const handleContactText = (ev) => {
-  //   console.log(ev.target.value);
-  //   ev.preventDefault();
-  //   props.handleContactText(
-  //     { value: ev.target.value, name: ev.target.name }
-
-  //     // value: ev.target.value,
-  //     // name: ev.target.name,
-  //   );
-  // };
-
   const handleTextContact = (ev) => {
     ev.preventDefault();
     console.log(ev.target.value);
@@ -27,9 +16,6 @@ function Contact(props) {
       ...formImput,
       [ev.target.name]: ev.target.value,
     });
-    // const data = {
-    //   value: ev.target.value,
-    //   name: ev.target.name,
   };
 
   const [serverState, setServerState] = useState({

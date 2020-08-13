@@ -1,6 +1,6 @@
 import React from 'react';
 // import aboutme from '../images/iconsabout.jpg';
-import series from '../images/series.png';
+import series from '../images/seriecortadados.jpeg';
 import '../stylesheets/App.scss';
 import Project from './Project';
 
@@ -13,6 +13,7 @@ function Portfolio() {
         <Project text="segundo" alt="micabeza" />
         <Project text="tercero" alt="micabeza" />
         <Project text="cuarto" alt="micabeza" />
+        <Project text="quinto" alt="micabeza" />
       </ul>
 
       {/* <img className="about__img" src={aboutme} alt="about me"></img> */}

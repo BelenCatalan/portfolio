@@ -15,16 +15,32 @@
     background-color: rgb(236, 199, 199);
     border-color: 10px solid blue;
   }
+
+  &__div {
+    width: 100%;
+    height: 73%;
+    border-radius: 5px;
+    margin-top: 2px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
   &__img {
     display: block;
     width: 100%;
+    height: 190px;
+    background-size: cover;
+    overflow: hidden;
   }
   &__container {
     // width: 75vw;
+
+    min-width: 120px;
     height: 100%;
-    // margin-left: 5px;
-    // margin-right: 5px;
-    // border-radius: 5px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 5px;
     background-color: rgb(255, 248, 255);
     box-shadow: 1px 1px 1px rgb(250, 231, 247);
     transition: all 0.2s ease-in-out;
@@ -40,6 +56,26 @@
     //   // visibility: hidden;
     //   // transition: all 0.2s ease-in-out;
     //   background-color: rgba(31, 31, 31, 0.8);
+    @media all and (min-width: 480px) {
+      max-height: inherit;
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+    }
+    @media all and (min-width: 768px) {
+      height: 80%;
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+    }
+
+    @media all and (min-width: 1280px) {
+      height: 100%;
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+    }
+    @media all and (min-width: 1680px) {
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+    }
   }
   &__div {
     position: relative;

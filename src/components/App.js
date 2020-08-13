@@ -11,12 +11,6 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 // import '../stylesheets/styles.css';
 
 function App() {
-  // const [formImput, setFormImput] = useState('');
-  // const [emailContact, setEmailContact] = useState('');
-  // const [messageContact, setMessageContact] = useState('');
-
-  /*useState({ contactName: '', contactEmail: '', contactMessage: '' });*/
-
   const AnimatedSwitch = withRouter(({ location }) => (
     <TransitionGroup>
       <CSSTransition key={location.key} classNames="slide" timeout={1000}>
@@ -31,24 +25,6 @@ function App() {
       </CSSTransition>
     </TransitionGroup>
   ));
-
-  // const handleContactText = (data) => {
-  //   console.log(data);
-  //   console.log(data.name);
-  //   if (data.name === 'contactName') {
-  //     setFormImput(data.value);
-  //   }
-  //   if (data.name === 'contacEmail') {
-  //     setEmailContact(data.value);
-  //   } else {
-  //     setMessageContact(data.value);
-  //   }
-
-  //   // setFormImput((prevState) => ({
-  //   //   ...prevState,
-  //   //   [data.name]: data.value,
-  //   // }));
-  // };
 
   return (
     // <div className="">

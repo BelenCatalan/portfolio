@@ -81,21 +81,6 @@
   }
 }
 
-/* .header__list {
-  list-style: none;
-  height: 100%;
-  display: flex;
-  justify-items: center;
-  justify-content: flex-end;
-  font-family: Roboto;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.8em;
-    text-align: center;
-    text-decoration: inherit;
-    letter-spacing: .01em;
-    color: black;
-} */
 .header__list {
   list-style: none;
   height: 100%;
@@ -124,16 +109,4 @@
   @media all and (min-width: 768px) {
     flex-direction: row;
   }
-}
-
-/* MEDIAQUERYS */
-@media all and (min-width: 320px) {
-}
-@media all and (min-width: 480px) {
-  .header__list {
-  }
-}
-@media all and (min-width: 768px) {
-}
-@media all and (min-width: 1200px) {
 }
