@@ -59,19 +59,15 @@ function Contact(props) {
         <img className="contact__img" src={belen} alt=""></img>
       </div>
       <div className="contact__div--form">
+        <p className="contact__p">Hablemos!</p>
         <form onSubmit={handleOnSubmit}>
-          <label>Nombre Apellido</label>
-          <input className="" type="text" name="contactName" placeholder="Belén Catalán" onChange={handleTextContact} value={formImput.contactName} />
+          <input className="contact__imputs" type="text" name="contactName" placeholder="Nombre y apellido" onChange={handleTextContact} value={formImput.contactName} />
+          <input className="contact__imputs" type="text" name="contactEmail" placeholder="email" onChange={handleTextContact} value={formImput.contactEmail} />
 
-          <label htmlFor="">Email</label>
-          <input className="" type="text" name="contactEmail" placeholder="email@gmail.com" onChange={handleTextContact} value={formImput.contactEmail} />
+          <textarea className="contact__imputs" name="contactMessage" placeholder="Mensaje" onChange={handleTextContact} value={formImput.contactMessage}></textarea>
 
-          <label htmlFor="">
-            Mensaje
-            <textarea className="" name="contactMessage" onChange={handleTextContact} value={formImput.contactMessage}></textarea>
-          </label>
-          <div>
-            <button type="submit" disabled={serverState.submitting}>
+          <div className="contact__button--div">
+            <button className="contact__button" type="submit" disabled={serverState.submitting}>
               Enviar
             </button>
           </div>

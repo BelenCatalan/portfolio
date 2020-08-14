@@ -40,11 +40,12 @@
     display: grid;
     height: 98%;
     grid-row-gap: 2ch;
-
+    margin-bottom: 6%;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
     @media all and (min-width: 480px) {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      margin-top: 6%;
     }
 
     @media all and (min-width: 768px) {
@@ -72,8 +73,9 @@
     // margin-top: 40px;
     // margin-bottom: 40px;
     @media all and (min-width: 480px) {
-      height: 73vh;
+      // height: 73vh;
       width: 85vw;
+
       // max-height: 60vh;
     }
     @media all and (min-width: 768px) {

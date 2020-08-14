@@ -51,12 +51,17 @@
 .main__background {
   height: 100%;
   width: 100%;
-  background-image: url('../images/back.jpg');
+  // background-image: url('../images/back.jpg');
+  background-image: url('../images/verticalback.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media all and (min-width: 768px) {
+    background-image: url('../images/back.jpg');
+  }
 }
 
 .scroll {
