@@ -16,7 +16,7 @@
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     @media all and (min-width: 480px) {
       width: 90vw;
       height: 73vh;
@@ -47,9 +47,11 @@
     font-family: 'Source Code Pro', monospace;
     margin-left: 15px;
     font-size: 1.5em;
+    color: rgb(63, 63, 63);
   }
 
   &__p {
+    // font-family: 'Source Code Pro', monospace;
     font-family: Roboto;
     font-size: 0.8em;
     margin-right: 15px;
@@ -57,6 +59,7 @@
     margin-bottom: 0px;
     margin-top: 4px;
     color: rgb(92, 91, 91);
+    text-align: justify;
   }
 
   &__img {
@@ -64,5 +67,29 @@
     text-align: center;
     align-self: center;
     margin-top: 250px;
+  }
+  &__span {
+    font-weight: bold;
+  }
+
+  &__ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    align-content: center;
+    align-items: center;
+  }
+
+  &__li {
+    display: inline;
+    margin-left: 8px;
+  }
+
+  &__h5 {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(63, 63, 63);
+    margin-top: 10%;
   }
 }
