@@ -10,9 +10,8 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    box-shadow: 2px 4px 5px rgb(185, 185, 185);
+    align-items: center;
+    box-shadow: 1px 5px 3px rgba(1, 1, 1, 0.2);
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -30,6 +29,9 @@
     @media all and (min-width: 1200px) {
       width: 85vw;
       height: 70vh;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
     }
     @media all and (min-width: 1440px) {
       margin-top: 3%;
@@ -57,9 +59,39 @@
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 0px;
-    margin-top: 4px;
+    margin-top: 6px;
     color: rgb(92, 91, 91);
     text-align: justify;
+    @media all and (min-width: 480px) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    @media all and (min-width: 768px) {
+      margin-right: 25px;
+      margin-left: 25px;
+      font-size: 0.9em;
+      text-align: left;
+    }
+  }
+  &__p--music {
+    font-family: Roboto;
+    font-size: 0.8em;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: rgb(92, 91, 91);
+    text-align: justify;
+    align-self: flex-start;
+    @media all and (min-width: 480px) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    @media all and (min-width: 768px) {
+      margin-right: 25px;
+      margin-left: 25px;
+      font-size: 0.9em;
+    }
   }
 
   &__img {
@@ -85,11 +117,18 @@
   &__li {
     display: inline;
     margin-left: 8px;
+    color: #5c5b5b;
+    @media all and (min-width: 768px) {
+      font-size: 1.2em;
+    }
   }
 
   &__h5 {
     font-family: 'Source Code Pro', monospace;
     color: rgb(63, 63, 63);
     margin-top: 10%;
+    @media all and (min-width: 768px) {
+      font-size: 1em;
+    }
   }
 }

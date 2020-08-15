@@ -9,7 +9,9 @@
     max-width: 900px;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 4px 5px rgb(185, 185, 185);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.2);
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -19,15 +21,15 @@
     //   height: 73vh;
     //   margin-bottom: 6%;
     // }
-    // @media all and (min-width: 768px) {
-    //   width: 80vw;
-    //   height: 70vh;
-    //   margin-bottom: 6%;
-    // }
-    // @media all and (min-width: 1200px) {
-    //   width: 85vw;
-    //   height: 70vh;
-    // }
+    @media all and (min-width: 768px) {
+      height: 45%;
+      margin-bottom: 0%;
+    }
+    @media all and (min-width: 1200px) {
+      width: 350px;
+      height: 40%;
+      margin-top: 3%;
+    }
     // @media all and (min-width: 1440px) {
     //   margin-top: 3%;
     //   max-width: 1200px;
@@ -62,11 +64,21 @@
     flex-direction: column;
     align-items: center;
 
-    box-shadow: 2px 4px 5px rgb(185, 185, 185);
+    // box-shadow: 2px 4px 5px rgb(185, 185, 185);
+    box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.2);
     border-radius: 5px;
     border: 1px solid rgb(128, 129, 129);
     margin-top: 5%;
     margin-bottom: 5%;
+    @media all and (min-width: 768px) {
+      margin-top: 3%;
+      width: 280px;
+      height: 90%;
+    }
+    @media all and (min-width: 1200px) {
+      margin-right: 50px;
+      margin-left: 50px;
+    }
   }
   &__imputs {
     display: block;
@@ -100,11 +112,8 @@
     align-self: flex-start;
     display: flex;
     align-items: left;
-
-    // margin-left: 17%;
   }
   &__button {
-    // margin-left: 17%;
     text-decoration: none;
     text-align: left;
     background: none;
