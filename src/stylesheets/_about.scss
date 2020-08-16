@@ -50,6 +50,10 @@
     margin-left: 15px;
     font-size: 1.5em;
     color: rgb(63, 63, 63);
+    @media all and (min-width: 1200px) {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
   }
 
   &__p {
@@ -72,6 +76,10 @@
       font-size: 0.9em;
       text-align: left;
     }
+    @media all and (min-width: 1200px) {
+      font-size: 1em;
+      text-align: left;
+    }
   }
   &__p--music {
     font-family: Roboto;
@@ -91,6 +99,9 @@
       margin-right: 25px;
       margin-left: 25px;
       font-size: 0.9em;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 1em;
     }
   }
 
@@ -112,6 +123,7 @@
     width: 200px;
     align-content: center;
     align-items: center;
+    padding: 0;
   }
 
   &__li {
@@ -121,6 +133,9 @@
     @media all and (min-width: 768px) {
       font-size: 1.2em;
     }
+    @media all and (min-width: 1200px) {
+      font-size: 1.4em;
+    }
   }
 
   &__h5 {
@@ -129,6 +144,29 @@
     margin-top: 10%;
     @media all and (min-width: 768px) {
       font-size: 1em;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 1.2em;
+    }
+  }
+  &__div--bien {
+    @media all and (min-width: 1200px) {
+      width: 30%;
+      margin-top: 6%;
+    }
+  }
+
+  &__div--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media all and (min-width: 1200px) {
+      width: 70%;
+      margin-top: 6%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 3%;
     }
   }
 }

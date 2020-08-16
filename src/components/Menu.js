@@ -7,11 +7,11 @@ function Menu() {
   return (
     <div className="header__div">
       <ul className="header__list">
-        {/* <li className="header__li">
-          <Link to="/">Home</Link>
-        </li> */}
         <li className="header__li">
-          <Link to="/">Sobre mi</Link>
+          <Link to="/">Home</Link>
+        </li>
+        <li className="header__li">
+          <Link to="/About">Sobre mi</Link>
         </li>
         <li className="header__li">
           <Link to="/Portfolio">Portfolio</Link>

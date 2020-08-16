@@ -17,15 +17,15 @@ import { FaSlack } from 'react-icons/fa';
 function about() {
   return (
     <div className="about__div">
-      <div>
+      <div className="about__div--bien">
         <h4 className="about__h4">Bienvenidos!</h4>
       </div>
-      <div>
+      <div className="about__div--text">
         <p className="about__p">
-          Hola, mi nombre es Belén, soy desarrolladora <span className="about__span">front-end</span>, el lenguaje de programación con el que trabajo es <span className="about__span">javaScript</span> y una de sus librerías <span className="about__span">React</span>.
+          Hola, mi nombre es <a href="https://github.com/BelenCatalan">Belén</a>, soy desarrolladora <span className="about__span">front-end</span>, el lenguaje de programación con el que trabajo es <span className="about__span">javaScript</span> y una de sus librerías <span className="about__span">React</span>.
         </p>
         <p className="about__p">
-          Mi objetivo es poder crear soluciones tecnológicas adaptadas a cualquier necesidad,para ello, seguir formándome es una parte esencial en mi camino. Considero que el <span className="about__span">trabajo en equipo</span> es la mejor forma de avanzar en un trabajo, proyecto o incluso la vida.
+          Mi objetivo es poder crear soluciones tecnológicas adaptadas a cualquier necesidad, para ello, seguir formándome es una parte esencial en mi camino. Considero que el <span className="about__span">trabajo en equipo</span> es la mejor forma de avanzar en un trabajo, proyecto o incluso la vida.
         </p>
         <p className="about__p">
           Me considero una persona muy <span className="about__span">curiosa</span>, obtengo mucha motivación aprendiendo cosas nuevas, sobre todo si con esos conocimientos puedo crear cosas por mi misma. Soy <span className="about__span">tenaz</span> y <span className="about__span">comprometida</span>, de fácil <span className="about__span">adaptabilidad</span> y <span className="about__span">empatía</span>, los nuevos retos me dan la vida.{' '}

@@ -26,8 +26,8 @@
       margin-bottom: 0%;
     }
     @media all and (min-width: 1200px) {
-      width: 350px;
-      height: 40%;
+      width: 300px;
+      height: 33%;
       margin-top: 3%;
     }
     // @media all and (min-width: 1440px) {
@@ -76,8 +76,19 @@
       height: 90%;
     }
     @media all and (min-width: 1200px) {
-      margin-right: 50px;
-      margin-left: 50px;
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 320px;
+    }
+    @media all and (min-width: 1440px) {
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 400px;
+    }
+  }
+  &__form {
+    @media all and (min-width: 1200px) {
+      width: 70%;
     }
   }
   &__imputs {
@@ -94,6 +105,8 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 0.7em;
     color: rgb(92, 91, 91);
+    @media all and (min-width: 1200px) {
+    }
   }
   &__imputs:nth-child(3n) {
     height: 60%;
@@ -107,6 +120,9 @@
     margin-top: 3%;
     margin-bottom: 2%;
     text-align: left;
+    @media all and (min-width: 1200px) {
+      margin-top: 6%;
+    }
   }
   &__button--div {
     align-self: flex-start;

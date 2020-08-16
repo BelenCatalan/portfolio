@@ -60,7 +60,7 @@ function Contact(props) {
       </div>
       <div className="contact__div--form">
         <p className="contact__p">Hablemos!</p>
-        <form onSubmit={handleOnSubmit}>
+        <form className="contact__form" onSubmit={handleOnSubmit}>
           <input className="contact__imputs" type="text" name="contactName" placeholder="Nombre y apellido" onChange={handleTextContact} value={formImput.contactName} />
           <input className="contact__imputs" type="text" name="contactEmail" placeholder="email" onChange={handleTextContact} value={formImput.contactEmail} />
 

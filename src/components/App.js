@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Home from './Home';
 import About from './Sobre-mi';
 import Menu from './Menu';
 import Footer from './Footer';
@@ -15,7 +16,8 @@ function App() {
     <TransitionGroup>
       <CSSTransition key={location.key} classNames="slide" timeout={1000}>
         <Switch location={location}>
-          <Route path="/" component={About} exact />
+          <Route path="/" component={Home} exact />
+          <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" /*component={Contact} */>
             <Contact /*handleContactText={handleContactText} formImput={formImput}*/ />

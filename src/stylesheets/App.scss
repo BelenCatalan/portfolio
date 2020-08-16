@@ -1,3 +1,4 @@
+@import './home.scss';
 @import './portfolio';
 @import './about.scss';
 @import './slide';
@@ -108,9 +109,13 @@
 }
 .header__li {
   text-decoration: none;
-  margin: 0px 12px 0px 12px;
+  margin: 0px 8px 0px 8px;
   cursor: pointer;
   color: black;
+  @media all and (min-width: 480px) {
+    flex-direction: row;
+    margin: 0px 12px 0px 12px;
+  }
 }
 .header__li:hover {
   color: gray;
