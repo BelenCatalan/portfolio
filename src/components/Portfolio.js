@@ -4,7 +4,7 @@ import series from '../images/seriecortadados.jpeg';
 import code from '../images/code-fiction.jpeg';
 import cardsjs from '../images/cardsjs.jpeg';
 import cardsreact from '../images/cardsreact.jpeg';
-import randm from '../images/rickandmorty.jpeg';
+import randm from '../images/rickandmorty.png';
 import '../stylesheets/App.scss';
 import Project from './Project';
 import { FaHtml5 } from 'react-icons/fa';
