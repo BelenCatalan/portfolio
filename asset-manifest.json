@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfoliobel/static/css/main.c725c336.chunk.css",
+    "main.js": "/portfoliobel/static/js/main.9eb839b4.chunk.js",
+    "main.js.map": "/portfoliobel/static/js/main.9eb839b4.chunk.js.map",
+    "runtime-main.js": "/portfoliobel/static/js/runtime-main.1e216d46.js",
+    "runtime-main.js.map": "/portfoliobel/static/js/runtime-main.1e216d46.js.map",
+    "static/js/2.39931af7.chunk.js": "/portfoliobel/static/js/2.39931af7.chunk.js",
+    "static/js/2.39931af7.chunk.js.map": "/portfoliobel/static/js/2.39931af7.chunk.js.map",
+    "index.html": "/portfoliobel/index.html",
+    "precache-manifest.2b7db860ee7e5e7e4521971ca3c2089e.js": "/portfoliobel/precache-manifest.2b7db860ee7e5e7e4521971ca3c2089e.js",
+    "service-worker.js": "/portfoliobel/service-worker.js",
+    "static/css/main.c725c336.chunk.css.map": "/portfoliobel/static/css/main.c725c336.chunk.css.map",
+    "static/js/2.39931af7.chunk.js.LICENSE.txt": "/portfoliobel/static/js/2.39931af7.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/portfoliobel/static/media/verticalback.0a604b2d.jpg",
+    "static/media/belen.jpg": "/portfoliobel/static/media/belen.593f1940.jpg",
+    "static/media/belenmedia.jpg": "/portfoliobel/static/media/belenmedia.e87387d8.jpg",
+    "static/media/cardsjs.jpeg": "/portfoliobel/static/media/cardsjs.7411bab2.jpeg",
+    "static/media/cardsreact.jpeg": "/portfoliobel/static/media/cardsreact.80f6b2ba.jpeg",
+    "static/media/code-fiction.jpeg": "/portfoliobel/static/media/code-fiction.8e8eca61.jpeg",
+    "static/media/iconsabout.jpg": "/portfoliobel/static/media/iconsabout.9da2c4ff.jpg",
+    "static/media/rickandmorty.png": "/portfoliobel/static/media/rickandmorty.501637b9.png",
+    "static/media/seriecortadados.jpeg": "/portfoliobel/static/media/seriecortadados.2dc14cb2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e216d46.js",
+    "static/js/2.39931af7.chunk.js",
+    "static/css/main.c725c336.chunk.css",
+    "static/js/main.9eb839b4.chunk.js"
+  ]
+}
